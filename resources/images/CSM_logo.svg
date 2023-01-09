@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="209" height="107" viewBox="0 0 209 107">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="gray"/>
+    </linearGradient>
+    <filter id="Rectangle_1" x="0" y="0" width="209" height="107" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#fff" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Path_51" x="18.974" y="11.941" width="66.929" height="83.119" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="CSM_logo" transform="translate(9 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Rectangle_1)">
+      <rect id="Rectangle_1-2" data-name="Rectangle 1" width="191" height="89" rx="10" transform="translate(9 6)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="icon-1719742" transform="translate(7.549 11.941)">
+      <g transform="matrix(1, 0, 0, 1, -16.55, -17.94)" filter="url(#Path_51)">
+        <path id="Path_51-2" data-name="Path 51" d="M113.528,125.079c-3.465,0-7.381-1.326-11.477-3.938-6.4-4.079-12.532-10.849-17.273-19.06s-7.536-16.908-7.87-24.488c-.344-7.8,1.959-13.541,6.486-16.154S94.04,59.7,100.626,63.9c6.4,4.08,12.532,10.849,17.273,19.06s7.536,16.908,7.87,24.488c.344,7.8-1.96,13.541-6.486,16.154A11.349,11.349,0,0,1,113.528,125.079ZM89.16,61.874A9.483,9.483,0,0,0,84.35,63.1c-3.878,2.239-5.842,7.357-5.531,14.412.321,7.279,3.026,15.666,7.616,23.616s10.5,14.486,16.643,18.4c5.954,3.8,11.369,4.655,15.247,2.417s5.842-7.357,5.531-14.412c-.321-7.279-3.026-15.666-7.616-23.616s-10.5-14.486-16.643-18.4C95.815,63.1,92.251,61.874,89.16,61.874Z" transform="translate(-48.9 -42.02)" fill="#42366c"/>
+      </g>
+      <path id="Path_52" data-name="Path 52" d="M89.154,125.079A11.348,11.348,0,0,1,83.4,123.6c-4.526-2.613-6.83-8.35-6.486-16.154.334-7.58,3.13-16.277,7.87-24.488s10.875-14.98,17.273-19.06c6.586-4.2,12.706-5.074,17.233-2.46s6.83,8.35,6.486,16.154c-.334,7.58-3.13,16.277-7.87,24.488s-10.875,14.98-17.273,19.06c-4.1,2.612-8.013,3.938-11.478,3.938Zm24.368-63.2c-3.091,0-6.654,1.226-10.437,3.638-6.143,3.918-12.053,10.453-16.643,18.4s-7.3,16.337-7.616,23.616c-.311,7.055,1.653,12.173,5.531,14.412s9.292,1.381,15.247-2.417c6.143-3.918,12.053-10.453,16.643-18.4s7.3-16.337,7.616-23.616c.311-7.055-1.653-12.173-5.531-14.412a9.484,9.484,0,0,0-4.809-1.221Z" transform="translate(-65.452 -59.961)" fill="#f58b0e"/>
+      <path id="Path_53" data-name="Path 53" d="M88.89,126.284c-9.482,0-18.411-1.928-25.143-5.428C56.817,117.252,53,112.389,53,107.162s3.817-10.09,10.747-13.694c6.732-3.5,15.661-5.428,25.143-5.428s18.411,1.928,25.143,5.428c6.931,3.6,10.747,8.467,10.747,13.694s-3.817,10.09-10.747,13.694C107.3,124.356,98.372,126.284,88.89,126.284Zm0-36.33c-18.734,0-33.976,7.719-33.976,17.208S70.156,124.37,88.89,124.37s33.976-7.719,33.976-17.208S107.624,89.954,88.89,89.954Z" transform="translate(-53 -74.603)" fill="#4a3030"/>
+      <circle id="Ellipse_1" data-name="Ellipse 1" cx="7.178" cy="7.178" r="7.178" transform="translate(28.712 25.381)" fill="none"/>
+    </g>
+    <text id="Community_Science_Museum" data-name="Community
+Science
+Museum" transform="translate(86 31)" fill="#312424" font-size="18" font-family="Baskerville"><tspan x="0" y="0">Community</tspan><tspan x="0" y="20">Science</tspan><tspan x="0" y="40">Museum</tspan></text>
+  </g>
+</svg>
