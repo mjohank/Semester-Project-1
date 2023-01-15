@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+  </head>
+  <body>
+    <main class="container">
+      <h1 class="primary-heading">Contact us</h1>
+
+      <div class="contact-form-container">
+        <form>
+          <label for="name">Name</label>
+          <input type="text" name="name" placeholder="Enter full name here" />
+
+          <label for="number">Phone</label>
+          <input
+            type="tel"
+            name="phone"
+            id="phone"
+            placeholder="Enter phone number here"
+          />
+
+          <label for="email">E-mail</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter email address here"
+          />
+
+          <label for="inquiry">Choose your inquiry</label>
+          <select name="inquiry" id="inquiry">
+            <option value="placeholder">Choose</option>
+            <option value="student">I am a student</option>
+            <option value="student">I am a teacher</option>
+            <option value="student">I am a researcher</option>
+            <option value="student">I wish to volunteer</option>
+            <option value="student">I wish to offer my support</option>
+            <option value="student">I am interested in an internship</option>
+            <option value="student">Other</option>
+          </select>
+
+          <label for="message">Message</label>
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </form>
+
+        <div class="submit-btn">
+          <a href="#" class="submit-btn">Submit</a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
