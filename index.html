@@ -12,27 +12,47 @@
       name="keywords"
       content="Museum, Science, Interactive, Exhibition, Cosmology, Evolution, Biology, Medicine, Robotics, AI, Ecology, kids, teachers, researchers, professor, Aeronautics, Energetica"
     />
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css" />
     <title>Home | Community Science Museum</title>
   </head>
   <body>
     <!-- Header and Navigation -->
 
     <header class="header">
-      <nav class="main-nav">
+      <nav class="main-nav-container">
         <a href="index.html"
-          ><img src="/resources/logo/CSM_logo.svg" alt="logo"
-        /></a>
-        <label for="toggle" class="toggle-label">&#9776</label>
-      <input type="checkbox" id="toggle">
-        <div class="main-nav-links">
-          <a href="index.html">Home</a>
-          <a href="html/exhibitions.html">Exhibitions</a>
-          <a href="html/visit.html">Visit</a>
-          <a href="#">Get involved</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
-        </div>
+          ><img
+            src="/resources/logo/CSM_logo.svg"
+            alt="Museum logo"
+            class="logo"
+        /></a>        
+        
+        <ul class="main-nav-list">
+          <label for="toggle" class="toggle-label">&#9776</label>
+        <input type="checkbox" id="toggle">
+         
+          <li>
+            <a href="index.html" class="nav-link current">Home</a>
+          </li>
+          <li>
+            <a href="html/exhibitions.html" class="nav-link">Exhibitions</a>
+          </li>
+          <li>
+            <a href="html/visit.html" class="nav-link">Visit</a>
+          </li>
+          <li>
+            <a href="html/get_involved.html" class="nav-link">Get involved</a>
+          </li>
+          <li>
+            <a href="html/about.html" class="nav-link">About</a>
+          </li>
+          <li>
+            <a href="html/contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
       </nav>
     </header>
 
@@ -42,94 +62,147 @@
       <!-- HERO -->
 
       <section class="section-hero">
-
-        <div class="hero">
-          <h1 class="primary-heading">Explore together</h1>
-          <a href="#">pil ned</a>
+        <div class="hero-heading-container green-style">
+          <h1 class="primary-heading hero-heading">Explore together</h1>
         </div>
+        
       </section>
 
       <!-- Explore -->
 
-      <section class="section-explore">
+      <section class="section-explore container_1600">
+        <h2 class="secondary-heading explore-h2">Explore</h2>
 
-        <h2 class="secondary-heading">Explore</h2>
-        <div class="explore-section">
-          <div class="explore-card">
-            <h3 class="tertiary-heading">For kids</h3>
+        <div class="explore-cards-container">
+          <div class="explore-card ec1 purple-style">
+            <a href="/html/for_kids.html" class="explore-link"
+              >For kids</a
+            >
           </div>
-          <div class="explore-card">
-            <h3 class="tertiary-heading">For teachers</h3>
+
+          <div class="explore-card ec2 green-style">
+              <a href="/html/for_teachers.html" class="explore-link"
+                >For teachers</a
+              >
+            
           </div>
-          <div class="explore-card">
-            <h3 class="tertiary-heading">Researchers</h3>
+
+          <div class="explore-card ec3 orange-style">
+            <a href="/html/for_researchers.html" class="explore-link"
+              >Researchers</a
+            >
           </div>
         </div>
       </section>
 
       <!-- Special events and exhibitions -->
 
-      <section class="section-special-events">
+      <section class="section-specials container_1200">
+        <h2 class="secondary-heading specials-H2">
+          Special events and exhibitions
+        </h2>
 
-        <h2 class="secondary-heading">Special events and exhibitions</h2>
-
-        <div class="special-flex-container">
-          
-          <div class="special-card">
-            <div class="special-img-container"></div>
-            <div class="special-txt-container">
-              <h3 class="tertiary-heading">Visiting Professor of Aeronautics</h3>
-              <p class="text">It is our pleasure to announce that Prof Sheila Widnall from the Massachusetts Institute of Technology will be delivering 3 lectures on the development of aeronautics and where the future lies in this exciting "space".</p>
-            </div>
+        <div class="specials-features green-style">
+          <img
+            src="/resources/images/professor_Widnall.jpg"
+            alt="Image of Professor Widnall"
+            class="specials-img"
+          />
+          <div class="specials-txt-container">
+            <h3 class="tertiary-heading specials-H3">
+              Visiting Professor of Aeronautics
+            </h3>
+            <p class="text specials-txt">
+              It is our pleasure to announce that Prof Sheila Widnall from the
+              Massachusetts Institute of Technology will be delivering 3
+              lectures on the development of aeronautics and where the future
+              lies in this exciting "space".
+            </p>
           </div>
+        </div>
 
-          <div class="special-card">
-            <div class="special-img-container"></div>
-            <div class="special-txt-container">
-              <h3 class="tertiary-heading">Night in the museum</h3>
-              <p class="text">Get your family together for an exciting night in the museum as you sleep over beside dinosaurs and science displays. Bring your own sleeping bag and get ready to rough it as we go exploring the wonders of science.</p>
-            </div>
+        <div class="specials-features specials-features-reverse orange-style">
+          <div class="specials-txt-container">
+            <h3 class="tertiary-heading specials-H3">Night in the museum</h3>
+            <p class="text specials-txt">
+              Get your family together for an exciting night in the museum as
+              you sleep over beside dinosaurs and science displays. Bring your
+              own sleeping bag and get ready to rough it as we go exploring the
+              wonders of science.
+            </p>
           </div>
+          <img
+            src="/resources/images/museum_night.jpg"
+            alt="Image of kid enjoying museum exhibitions at night"
+            class="specials-img specials-img-reverse"
+          />
+        </div>
 
-          <div class="special-card">
-            <div class="special-img-container"></div>
-            <div class="special-txt-container">
-              <h3 class="tertiary-heading">Energetica Exhibition on Loan</h3>
-              <p class="text">It is our pleasure to announce that Prof Sheila Widnall from the Massachusetts Institute of Technology will be delivering 3 lectures on the development of aeronautics and where the future lies in this exciting "space".</p>
-            </div>
+        <div class="specials-features purple-style">
+          <img
+            src="/resources/images/energetica.jpg"
+            alt="Image of the Energetica Exhibition"
+            class="specials-img"
+          />
+          <div class="specials-txt-container">
+            <h3 class="tertiary-heading specials-H3">
+              Energetica Exhibition on Loan
+            </h3>
+            <p class="text specials-txt">
+              On loan from the NEMO Science Museum in Amsterdam, the Energetica
+              exhibition is coming to the Community Science Museum. It’s a
+              series of installations that allow visitors to experience the
+              power of the elements as we harness them. From solar energy
+              powering lighting, to ‘Wind Island’ that shows how turbines are
+              able to use and control wind to create power.
+            </p>
           </div>
-
+        </div>
       </section>
     </main>
 
     <!-- footer -->
 
     <footer class="section-footer">
-      <div class="footer-flex-container">
         <div class="logo-address-container">
-          <a href="index.html"><img src="../resources/logo/CSM_logo.svg" alt="lol"></a>
-          <div class="address">
-            <p>Community Science Museum</p>
-            <p>Jalapeno Road 1</p>
-            <p>5515 Bergen</p>
+          <a href="index.html"
+            ><img src="../resources/logo/CSM_logo.svg" alt="logo"
+          /></a>
+          <div class="address-container">
+            <p class="text_small address-txt">Community Science Museum</p>
+            <p class="text_small address-txt">Jalapeno Road 1</p>
+            <p class="text_small address-txt">5515 Bergen</p>
           </div>
         </div>
 
-        <div class="hours-container">
-          <p>Opening hours:</p>
-          <p>Tuesday - Thursday: 10.00 - 16.00</p>
-          <p>Saturday: 09.00 - 16.00</p>
-          <p>Sunday: 09.00 - 13.00</p>
-          <p>Monday: Closed</p>
+        <div class="opening-hours-container">
+          <h4 class="hours-heading quaternary-heading">Opening hours:</h4>
+          <div class="hours-flex-container">
+            <p class="text_small day">Tuesday - Thursday:</p>
+            <p class="text_small hours">10.00 - 16.00</p>
+          </div>
+          <div class="hours-flex-container">
+            <p class="text_small day">Saturday:</p>
+            <p class="text_small hours"> 09.00 - 16.00</p>
+          </div>
+          <div class="hours-flex-container">
+            <p class="text_small day">Sunday:</p>
+            <p class="text_small hours">09.00 - 13.00</p>
+          </div>
+          <div class="hours-flex-container">
+            <p class="text_small day">Monday:</p>
+            <p class="text_small hours">Closed</p>
+          </div>
         </div>
 
         <div class="social-icons-container">
-          <h4>Follow us</h4>
-          <a href="#"><img src="../resources/icons/tiktok.png" alt="tiktok"></a>
-          <a href="#"><img src="../resources/icons/instagram.png" alt="instagram"></a>
-          <a href="#"><img src="../resources/icons/youtube.png" alt="youtube"></a>
+          <h4 class="social-heading quaternary-heading ">Follow us</h4>
+          <div class="icon-flex-container">
+           <a href="https://www.tiktok.com/en/"><img src="/resources/tiktok_icon.svg" alt="tiktok icon" class="icon"/></a>
+           <a href="https://www.instagram.com/"><img src="/resources/icons/instagram_icon.svg" alt="instagram icon" class="icon"/></a>
+           <a href="https://www.snapchat.com/"><img src="../resources/icons/snapchat_icon.svg" alt="snapchat icon" class="icon"/></a>
+          </div>
         </div>
-      </div>
     </footer>
   </body>
 </html>

@@ -13,9 +13,14 @@
       <div class="contact-form-container">
         <form class="contact-form">
           <label for="name" class="contact-label">Name</label>
-          <input type="text" name="name" placeholder="Enter full name here" />
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter full name here"
+          />
 
-          <label for="number" class="contact-label">Phone</label>
+          <label for="phone" class="contact-label">Phone</label>
           <input
             type="tel"
             name="phone"
@@ -31,7 +36,7 @@
             placeholder="Enter email address here"
           />
 
-          <label for="inquiry" class="contact-label">Choose your inquiry</label>
+          <label for="inquiry" class="contact-label">Subject</label>
           <select name="inquiry" id="inquiry">
             <option value="placeholder">Choose</option>
             <option value="student">I am a student</option>
@@ -44,7 +49,13 @@
           </select>
 
           <label for="message" class="contact-label">Message</label>
-          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Write your message here"
+          ></textarea>
         </form>
 
         <div class="submit-btn">
