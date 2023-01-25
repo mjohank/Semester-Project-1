@@ -1,6 +1,7 @@
 :root {
   /* Colors */
   --clr-green_main: #47ad11;
+  --clr-green_dark: #3d950f;
   --clr-orange_main: #f58b0e;
   --clr-purple_main: #471ae5;
   --clr-white_main: #ffffff;
@@ -46,10 +47,11 @@
 
   /* Margins */
   --mb-H1: 6rem;
-  --mb-H2: 4rem;
+  --mb-H2: 2rem;
   --mb-H3: 2rem;
   --mb-H4: 1rem;
   --mb-sections: 6rem;
+  --mt-H1: 6rem;
   --mt-footer: 10rem;
 }
 
@@ -75,6 +77,18 @@
   margin: 0 auto;
 }
 
+/* Flexbox */
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-container_nowrap {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
 /* Headings */
 .primary-heading {
   font-family: var(--ff-headings_main);
@@ -88,7 +102,7 @@
   font-size: var(--fs-H2);
   font-weight: var(--fw-headings);
   color: var(--txt-clr_main);
-  margin-bottom: var(--mb-H2);
+  /* margin-bottom: var(--mb-H2); */
 }
 
 .tertiary-heading {
@@ -140,29 +154,28 @@
 /* HEADER */
 
 .header {
-  height: 15vh;
+  /* position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 999; */
 }
 
-.main-nav-container {
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-image: var(--gradient-green_top);
-  height: 100%;
-  padding: 0 2rem 0 1rem;
+  padding: 1rem 2rem;
+  width: 100%;
 }
 
-.logo {
-  padding-top: 1rem;
-}
-
-.main-nav-list {
+.nav-list {
   display: flex;
   align-items: center;
   gap: 2rem;
 }
 
-.main-nav-list li {
+.nav-list li {
   list-style: none;
 }
 
@@ -189,16 +202,11 @@
   text-decoration: underline;
 }
 
-/* Hamburger menu styling */
-
 .toggle-label {
-  padding-right: 2rem;
-  font-size: var(--fs-H1-main);
-  color: var(--clr-white_main);
   display: none;
 }
 
-#toggle {
+.toggle {
   display: none;
 }
 
@@ -242,9 +250,6 @@
   line-height: 1.5;
 }
 
-.icon-flex-container {
-}
-
 .icon {
   height: 4rem;
 }
@@ -263,8 +268,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
-  height: 85vh;
-  /* position: relative; */
+  height: 90vh;
   margin-bottom: var(--mb-sections);
 }
 
@@ -375,4 +379,116 @@
 .specials-txt {
   font-size: 20px;
   padding: 0 2.5rem 0 2.5rem;
+}
+
+/*******************************************************************/
+/* EXHIBITIONS PAGE */
+/*******************************************************************/
+
+.exhib-H1 {
+  text-align: center;
+  margin-top: var(--mt-H1);
+  margin-bottom: var(--mb-H1);
+}
+
+.cosmology,
+.evolution,
+.biology_medicine,
+.robotics_ai,
+.ecology {
+  gap: 1rem;
+  margin-bottom: 5rem;
+}
+
+.exhib-img {
+  max-width: 34rem;
+}
+
+.exhib-txt-cont {
+  display: flex;
+  flex-direction: column;
+  max-width: 34rem;
+  padding: 1rem 2rem;
+}
+
+.exhib-H2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.exhib-text {
+  padding: 0 2rem;
+}
+
+/*******************************************************************/
+/* VISIT PAGE */
+/*******************************************************************/
+
+.visit-H1 {
+  text-align: center;
+  margin-top: var(--mt-H1);
+  margin-bottom: var(--mb-H1);
+}
+
+.visit-card-row_1 {
+  margin-bottom: 4rem;
+}
+
+.visit-card-row_1,
+.visit-card-row_2 {
+  column-gap: 4rem;
+  row-gap: 4rem;
+  justify-content: center;
+}
+
+.visit-card {
+  width: 24rem;
+  /* flex: 1; */
+  border-radius: var(--br-main);
+  overflow: hidden;
+}
+
+.visit-img {
+  width: 100%;
+  height: 17rem;
+  background-position: center;
+  background-size: cover;
+}
+
+.vc-img_1 {
+  background-image: url(../resources/images/map.jpg);
+}
+
+.vc-img_2 {
+  background-image: url(../resources/images/admission.jpg);
+}
+
+.vc-img_3 {
+  background-image: url(../resources/images/hours.jpg);
+}
+
+.vc-img_4 {
+  background-image: url(../resources/images/accessibility.jpg);
+}
+
+.vc-img_5 {
+  background-image: url(../resources/images/cafe.jpg);
+}
+
+.vc-img_6 {
+  background-image: url(../resources/images/shop.jpg);
+}
+
+.vc-H2 {
+  text-align: center;
+  background-color: var(--clr-green_dark);
+  color: var(--clr-white_main);
+}
+
+.vc-text-container {
+  padding: 2rem;
+}
+
+.flex-container_nowrap {
+  justify-content: space-between;
 }

@@ -12,9 +12,12 @@
       name="keywords"
       content="Museum, Science, Interactive, Exhibition, Cosmology, Evolution, Biology, Medicine, Robotics, AI, Ecology, kids, teachers, researchers, professor, Aeronautics, Energetica"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../css/styles.css" />
     <title>Home | Community Science Museum</title>
   </head>
@@ -22,18 +25,15 @@
     <!-- Header and Navigation -->
 
     <header class="header">
-      <nav class="main-nav-container">
+      <nav class="navbar">
         <a href="index.html"
-          ><img
-            src="/resources/logo/CSM_logo.svg"
-            alt="Museum logo"
-            class="logo"
-        /></a>        
-        
-        <ul class="main-nav-list">
-          <label for="toggle" class="toggle-label">&#9776</label>
-        <input type="checkbox" id="toggle">
-         
+        ><img
+        src="/resources/logo/CSM_logo.svg"
+        alt="Museum logo"
+        class="logo"
+        /></a>
+
+        <ul class="nav-list">   
           <li>
             <a href="index.html" class="nav-link current">Home</a>
           </li>
@@ -53,8 +53,13 @@
             <a href="html/contact.html" class="nav-link">Contact</a>
           </li>
         </ul>
+
+        <label for="toggle" class="toggle-label">&#9776</label>
+      <input type="checkbox" id="toggle" class="toggle">
       </nav>
-    </header>
+
+      
+    </header> 
 
     <!-- MAIN SECTION -->
 
@@ -65,8 +70,8 @@
         <div class="hero-heading-container green-style">
           <h1 class="primary-heading hero-heading">Explore together</h1>
         </div>
-        
       </section>
+     
 
       <!-- Explore -->
 
@@ -75,16 +80,13 @@
 
         <div class="explore-cards-container">
           <div class="explore-card ec1 purple-style">
-            <a href="/html/for_kids.html" class="explore-link"
-              >For kids</a
-            >
+            <a href="/html/for_kids.html" class="explore-link">For kids</a>
           </div>
 
           <div class="explore-card ec2 green-style">
-              <a href="/html/for_teachers.html" class="explore-link"
-                >For teachers</a
-              >
-            
+            <a href="/html/for_teachers.html" class="explore-link"
+              >For teachers</a
+            >
           </div>
 
           <div class="explore-card ec3 orange-style">
@@ -164,45 +166,63 @@
     <!-- footer -->
 
     <footer class="section-footer">
-        <div class="logo-address-container">
-          <a href="index.html"
-            ><img src="../resources/logo/CSM_logo.svg" alt="logo"
+      <div class="logo-address-container">
+        <a href="index.html"
+          ><img
+            src="../resources/logo/CSM_logo.svg"
+            alt="logo"
+            class="footer-logo"
+        /></a>
+        <div class="address-container">
+          <p class="text_small address-txt">Community Science Museum</p>
+          <p class="text_small address-txt">Jalapeno Road 1</p>
+          <p class="text_small address-txt">5515 Bergen</p>
+        </div>
+      </div>
+
+      <div class="opening-hours-container">
+        <h4 class="hours-heading quaternary-heading">Opening hours:</h4>
+        <div class="hours-flex-container">
+          <p class="text_small day">Tuesday - Thursday:</p>
+          <p class="text_small hours">10.00 - 16.00</p>
+        </div>
+        <div class="hours-flex-container">
+          <p class="text_small day">Saturday:</p>
+          <p class="text_small hours">09.00 - 16.00</p>
+        </div>
+        <div class="hours-flex-container">
+          <p class="text_small day">Sunday:</p>
+          <p class="text_small hours">09.00 - 13.00</p>
+        </div>
+        <div class="hours-flex-container">
+          <p class="text_small day">Monday:</p>
+          <p class="text_small hours">Closed</p>
+        </div>
+      </div>
+
+      <div class="social-icons-container">
+        <h4 class="social-heading quaternary-heading">Follow us</h4>
+        <div class="icon-flex-container">
+          <a href="https://www.tiktok.com/en/"
+            ><img
+              src="/resources/tiktok_icon.svg"
+              alt="tiktok icon"
+              class="icon"
           /></a>
-          <div class="address-container">
-            <p class="text_small address-txt">Community Science Museum</p>
-            <p class="text_small address-txt">Jalapeno Road 1</p>
-            <p class="text_small address-txt">5515 Bergen</p>
-          </div>
+          <a href="https://www.instagram.com/"
+            ><img
+              src="/resources/icons/instagram_icon.svg"
+              alt="instagram icon"
+              class="icon"
+          /></a>
+          <a href="https://www.snapchat.com/"
+            ><img
+              src="../resources/icons/snapchat_icon.svg"
+              alt="snapchat icon"
+              class="icon"
+          /></a>
         </div>
-
-        <div class="opening-hours-container">
-          <h4 class="hours-heading quaternary-heading">Opening hours:</h4>
-          <div class="hours-flex-container">
-            <p class="text_small day">Tuesday - Thursday:</p>
-            <p class="text_small hours">10.00 - 16.00</p>
-          </div>
-          <div class="hours-flex-container">
-            <p class="text_small day">Saturday:</p>
-            <p class="text_small hours"> 09.00 - 16.00</p>
-          </div>
-          <div class="hours-flex-container">
-            <p class="text_small day">Sunday:</p>
-            <p class="text_small hours">09.00 - 13.00</p>
-          </div>
-          <div class="hours-flex-container">
-            <p class="text_small day">Monday:</p>
-            <p class="text_small hours">Closed</p>
-          </div>
-        </div>
-
-        <div class="social-icons-container">
-          <h4 class="social-heading quaternary-heading ">Follow us</h4>
-          <div class="icon-flex-container">
-           <a href="https://www.tiktok.com/en/"><img src="/resources/tiktok_icon.svg" alt="tiktok icon" class="icon"/></a>
-           <a href="https://www.instagram.com/"><img src="/resources/icons/instagram_icon.svg" alt="instagram icon" class="icon"/></a>
-           <a href="https://www.snapchat.com/"><img src="../resources/icons/snapchat_icon.svg" alt="snapchat icon" class="icon"/></a>
-          </div>
-        </div>
+      </div>
     </footer>
   </body>
 </html>

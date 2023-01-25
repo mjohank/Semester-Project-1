@@ -12,127 +12,183 @@
       name="keywords"
       content="Museum, Science, Interactive, Exhibition, Cosmology, Evolution, Biology, Medicine, Robotics, AI, Ecology, kids, teachers, researchers, professor, Aeronautics, Energetica"
     />
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
     <title>Exhibitions | Community Science Museum</title>
   </head>
   <body>
     <!-- Header and Navigation -->
 
-    <header class="header">
-      <nav class="main-nav">
-        <a href="index.html"
-          ><img src="/resources/logo/CSM_logo.svg" alt="logo"
-        /></a>
-        <label for="toggle" class="toggle-label">&#9776</label>
-      <input type="checkbox" id="toggle">
-        <div class="main-nav-links">
-          <a href="../index.html">Home</a>
-          <a href="#">Exhibitions</a>
-          <a href="#">Visit</a>
-          <a href="#">Get involved</a>
-          <a href="#">About</a>
-          <a href="#">Contact</a>
-        </div>
-      </nav>
-    </header>
+   <!-- Header and Navigation -->
+
+   <header class="header">
+    <nav class="navbar">
+      <a href="../index.html"
+      ><img
+      src="/resources/logo/CSM_logo.svg"
+      alt="Museum logo"
+      class="logo"
+      /></a>
+
+      <ul class="nav-list">   
+        <li>
+          <a href="../index.html" class="nav-link">Home</a>
+        </li>
+        <li>
+          <a href="#" class="nav-link current">Exhibitions</a>
+        </li>
+        <li>
+          <a href="../html/visit.html" class="nav-link">Visit</a>
+        </li>
+        <li>
+          <a href="../html/get_involved.html" class="nav-link">Get involved</a>
+        </li>
+        <li>
+          <a href="../html/about.html" class="nav-link">About</a>
+        </li>
+        <li>
+          <a href="../html/contact.html" class="nav-link">Contact</a>
+        </li>
+      </ul>
+
+      <label for="toggle" class="toggle-label">&#9776</label>
+      <input type="checkbox" id="toggle" class="toggle">
+    </nav>    
+  </header> 
 
     <!-- MAIN SECTION -->
 
    <main>
-    <div class="container">
-      <h1 class="primary-heading">Exhibitions</h1>
-
+    <div class="container_1200 exhibitions-wrapper">
+      <h1 class="primary-heading exhib-H1">Exhibitions</h1>
 
 <!-- Exhibitions -->
 
 <!-- Exhibition 1 -->
 
-<div class="cosmology exhib-flex-reverse">
-  <img src="../resources/images/cosmology.jpg" alt="image of cosmos" class="exhib-img">
+<div class="cosmology flex-container reverse">
+  <img src="../resources/images/cosmology.jpg" alt="image of cosmos" class="exhib-img green-style">
   
-  <div class="exhibition-txt-cont">
-    <h2 class="secondary-heading">Cosmology</h2>
-    <p class="exhibition-text ">Explore the wonders of our cosmos. Our fantastic exhibition, "The Sky Above Us", explores the night sky and what we can see and know about the universe around us. We'll locate the various constellations and galaxies that can be seen and learn a bit about the early navigators who used the stars to travel by.</p>
+  <div class="exhib-txt-cont green-style">
+    <h2 class="secondary-heading  exhib-H2">Cosmology</h2>
+    <p class="exhib-text text">Explore the wonders of our cosmos. Our fantastic exhibition, "The Sky Above Us", explores the night sky and what we can see and know about the universe around us. We'll locate the various constellations and galaxies that can be seen and learn a bit about the early navigators who used the stars to travel by.</p>
   </div>
 </div>
 
 <!-- Exhibition 2 -->
 
-<div class="Evolution">
-  <div class="exhibition-txt-cont">
-    <h2 class="secondary-heading">Evolution</h2>
-    <p class="exhibition-text">For centuries, philosophers and scientists have wrestled with the question of our origins. Where do we come from and how did we get here? Since Darwin proposed his theory of evolution we have had a framework for exploring and understanding our place in this world.</p>
+<div class="evolution flex-container">
+  <div class="exhib-txt-cont orange-style">
+    <h2 class="secondary-heading exhib-H2">Evolution</h2>
+    <p class="exhib-text text">For centuries, philosophers and scientists have wrestled with the question of our origins. Where do we come from and how did we get here? Since Darwin proposed his theory of evolution we have had a framework for exploring and understanding our place in this world.</p>
   </div>
   
-  <img src="../resources/images/evolution.jpg" alt="illustration of the phases of human evolution" class="exhib-img">
+  <img src="../resources/images/evolution.jpg" alt="illustration of the phases of human evolution" class="exhib-img orange-style">
 </div>
 
 <!-- Exhibition 3 -->
 
-<div class="Biology_medicine exhib-flex-reverse">
-  <img src="../resources/images/biology_and_medicine.jpg" alt="image of two young researchers holding up and studying test tubes" class="exhib-img">
+<div class="biology_medicine flex-container reverse">
+  <img src="../resources/images/biology_and_medicine.jpg" alt="image of two young researchers holding up and studying test tubes" class="exhib-img purple-style">
   
-  <div class="exhibition-txt-cont">
-    <h2 class="secondary-heading">Biology and Medicine</h2>
-    <p class="exhibition-text">From micro-organisms to the human body, major breakthroughs in biology are offering us unique insights into the great wonders of the tiny world. Many of our great medicinal discoveries have come not only from the lab, but also from observing animals in the wild. Often our fellow creatures have beat us to it.</p>
+  <div class="exhib-txt-cont purple-style">
+    <h2 class="secondary-heading exhib-H2">Biology and Medicine</h2>
+    <p class="exhib-text text">From micro-organisms to the human body, major breakthroughs in biology are offering us unique insights into the great wonders of the tiny world. Many of our great medicinal discoveries have come not only from the lab, but also from observing animals in the wild. Often our fellow creatures have beat us to it.</p>
   </div>
 </div>
 
 <!-- Exhibition 4 -->
 
-<div class="Robotics_AI">
-  <div class="exhibition-txt-cont">
-    <h2 class="secondary-heading">Robotics and AI</h2>
-    <p class="exhibition-text">The information revolution is here and robotics and artificial intelligence are the science of the future. From useful home applications of AI to industrial uses of robotics, the future is here. You can even say hello and shake the hand of Rob the Robot.</p>
+<div class="robotics_ai flex-container">
+  <div class="exhib-txt-cont green-style">
+    <h2 class="secondary-heading exhib-H2">Robotics and AI</h2>
+    <p class="exhib-text text">The information revolution is here and robotics and artificial intelligence are the science of the future. From useful home applications of AI to industrial uses of robotics, the future is here. You can even say hello and shake the hand of Rob the Robot.</p>
   </div>
   
-  <img src="../resources/images/robotics.jpg" alt="image of robot" class="exhib-img">
+  <img src="../resources/images/robotics.jpg" alt="image of robot" class="exhib-img green-style">
 </div>
 
 <!-- Exhibition 5 -->
 
-<div class="Ecology exhib-flex-reverse">
-  <img src="../resources/images/ecology.jpg" alt="image of hands holding a plant" class="exhib-img">
+<div class="ecology flex-container reverse">
+  <img src="../resources/images/ecology.jpg" alt="image of hands holding a plant" class="exhib-img orange-style">
   
-  <div class="exhibition-txt-cont">
-    <h2 class="secondary-heading">Ecology</h2>
-    <p class="exhibition-text">As we learn more and more of the impact humans are having on the planet, the more important it becomes that scientists explore how to create a sustainable future not just for humans but for the whole planet.</p>
+  <div class="exhib-txt-cont orange-style">
+    <h2 class="secondary-heading exhib-H2">Ecology</h2>
+    <p class="exhib-text text">As we learn more and more of the impact humans are having on the planet, the more important it becomes that scientists explore how to create a sustainable future not just for humans but for the whole planet.</p>
   </div>        
 </div>
 
 </div>
 </main>
 
+<!-- footer -->
 
+<footer class="section-footer">
+  <div class="logo-address-container">
+    <a href="../index.html"
+      ><img
+        src="../resources/logo/CSM_logo.svg"
+        alt="logo"
+        class="footer-logo"
+    /></a>
+    <div class="address-container">
+      <p class="text_small address-txt">Community Science Museum</p>
+      <p class="text_small address-txt">Jalapeno Road 1</p>
+      <p class="text_small address-txt">5515 Bergen</p>
+    </div>
+  </div>
 
-    <!-- footer -->
+  <div class="opening-hours-container">
+    <h4 class="hours-heading quaternary-heading">Opening hours:</h4>
+    <div class="hours-flex-container">
+      <p class="text_small day">Tuesday - Thursday:</p>
+      <p class="text_small hours">10.00 - 16.00</p>
+    </div>
+    <div class="hours-flex-container">
+      <p class="text_small day">Saturday:</p>
+      <p class="text_small hours">09.00 - 16.00</p>
+    </div>
+    <div class="hours-flex-container">
+      <p class="text_small day">Sunday:</p>
+      <p class="text_small hours">09.00 - 13.00</p>
+    </div>
+    <div class="hours-flex-container">
+      <p class="text_small day">Monday:</p>
+      <p class="text_small hours">Closed</p>
+    </div>
+  </div>
 
-    <footer class="section-footer">
-      <div class="footer-flex-container">
-        <div class="logo-address-container">
-          <a href="index.html"><img src="../resources/logo/CSM_logo.svg" alt="lol"></a>
-          <div class="address">
-            <p>Community Science Museum</p>
-            <p>Jalapeno Road 1</p>
-            <p>5515 Bergen</p>
-          </div>
-        </div>
+  <div class="social-icons-container">
+    <h4 class="social-heading quaternary-heading">Follow us</h4>
+    <div class="icon-flex-container">
+      <a href="https://www.tiktok.com/en/"
+        ><img
+          src="/resources/tiktok_icon.svg"
+          alt="tiktok icon"
+          class="icon"
+      /></a>
+      <a href="https://www.instagram.com/"
+        ><img
+          src="/resources/icons/instagram_icon.svg"
+          alt="instagram icon"
+          class="icon"
+      /></a>
+      <a href="https://www.snapchat.com/"
+        ><img
+          src="../resources/icons/snapchat_icon.svg"
+          alt="snapchat icon"
+          class="icon"
+      /></a>
+    </div>
+  </div>
+</footer>
 
-        <div class="hours-container">
-          <p>Opening hours:</p>
-          <p>Tuesday - Thursday: 10.00 - 16.00</p>
-          <p>Saturday: 09.00 - 16.00</p>
-          <p>Sunday: 09.00 - 13.00</p>
-          <p>Monday: Closed</p>
-        </div>
-
-        <div class="social-icons-container">
-          <h4>Follow us</h4>
-          <a href="#"><img src="../resources/icons/tiktok.png" alt="tiktok"></a>
-          <a href="#"><img src="../resources/icons/instagram.png" alt="instagram"></a>
-          <a href="#"><img src="../resources/icons/youtube.png" alt="youtube"></a>
-        </div>
-      </div>
-    </footer>
+    
   </body>
 </html>
