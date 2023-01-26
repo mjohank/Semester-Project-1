@@ -1,6 +1,7 @@
 :root {
   /* Colors */
   --clr-green_main: #47ad11;
+  --clr-green_mid: #30770b;
   --clr-green_dark: #3d950f;
   --clr-orange_main: #f58b0e;
   --clr-purple_main: #471ae5;
@@ -87,6 +88,7 @@
 .flex-container_nowrap {
   display: flex;
   flex-wrap: nowrap;
+  justify-content: space-between;
 }
 
 /* Headings */
@@ -254,6 +256,36 @@
 .icon {
   height: 4rem;
 }
+
+/* CTA */
+
+.cta {
+  background-color: var(--clr-green_mid);
+  color: var(--clr-white_main);
+  padding: 1rem 2rem;
+  font-family: var(--ff-headings_main);
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.cta:hover {
+  color: var(--clr-green_mid);
+  border: 2px solid var(--clr-green_dark);
+  background-color: #fff;
+  box-shadow: 8px 8px 8px var(--clr-green_main);
+  transition: 0.2s ease-in-out;
+  padding: 1rem 2.1rem;
+}
+
+.cta:active {
+  color: var(--clr-white_main);
+  border: 2px solid var(--clr-green_dark);
+  background-color: var(--clr-green_mid);
+  box-shadow: 2px 4px 6px var(--clr-green_main);
+  transition: 0.1s ease-out;
+  padding: 0.8rem 1.8rem;
+}
+
 /*******************************************************************/
 /* HOMEPAGE */
 /*******************************************************************/
@@ -490,10 +522,6 @@
   padding: 2rem;
 }
 
-.flex-container_nowrap {
-  justify-content: space-between;
-}
-
 /*******************************************************************/
 /* GET INVOLVED PAGE */
 /*******************************************************************/
@@ -501,6 +529,8 @@
 .involved-H1 {
   margin-top: ;
   text-align: center;
+  margin-bottom: var(--mb-H1);
+  margin-top: var(--mt-H1);
 }
 
 .involved-flex-cont {
@@ -511,7 +541,8 @@
 .involved-img-container {
   width: 500px;
   height: 400px;
-  background-color: #245709;
+  background-position: center;
+  background-size: cover;
 }
 
 .involved-text-container {
@@ -529,5 +560,22 @@
 }
 
 .involved-text {
-  padding: 0 2rem;
+  padding: 0rem 2rem 3rem 2rem;
+}
+
+.support-container,
+.volunteer-container {
+  margin-bottom: 3rem;
+}
+
+.support-img {
+  background-image: url(../resources/images/support.jpg);
+}
+
+.volunteer-img {
+  background-image: url(../resources/images/volunteer.jpg);
+}
+
+.internship-img {
+  background-image: url(../resources/images/internship.jpg);
 }
