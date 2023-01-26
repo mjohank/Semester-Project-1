@@ -214,6 +214,7 @@
 
 .section-footer {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   background-image: var(--gradient-green_bottom);
@@ -491,4 +492,42 @@
 
 .flex-container_nowrap {
   justify-content: space-between;
+}
+
+/*******************************************************************/
+/* GET INVOLVED PAGE */
+/*******************************************************************/
+
+.involved-H1 {
+  margin-top: ;
+  text-align: center;
+}
+
+.involved-flex-cont {
+  justify-content: center;
+  gap: 2rem;
+}
+
+.involved-img-container {
+  width: 500px;
+  height: 400px;
+  background-color: #245709;
+}
+
+.involved-text-container {
+  width: 500px;
+  height: 400px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.involved-H2 {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: var(--mb-H2);
+}
+
+.involved-text {
+  padding: 0 2rem;
 }
