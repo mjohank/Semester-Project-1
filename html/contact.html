@@ -80,6 +80,7 @@
                 id="name"
                 class="input"
                 placeholder="Enter full name"
+                required
               />
             </div>
 
@@ -93,6 +94,7 @@
                 id="email"
                 class="input"
                 placeholder="Enter email address"
+                required
               />
             </div>
 
@@ -106,6 +108,7 @@
                 id="phone"
                 class="input"
                 placeholder="Enter phone number"
+                required
               />
             </div>
 
@@ -113,7 +116,12 @@
 
             <div class="contact-flex-item">
               <label for="subject" class="contact-label">Subject</label>
-              <select name="subject" id="subject" class="contact-select input">
+              <select
+                name="subject"
+                id="subject"
+                class="contact-select input"
+                required
+              >
                 <option value="placeholder">Click to choose</option>
                 <option value="student">I am a student</option>
                 <option value="teacher">I am a teacher</option>
@@ -137,8 +145,7 @@
                 cols="30"
                 rows="10"
                 placeholder="Write your message"
-              >
-              </textarea>
+              ></textarea>
             </div>
 
             <!-- Submit -->

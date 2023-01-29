@@ -680,7 +680,10 @@ textarea {
   min-width: 20rem;
 }
 
-input::placeholder {
+input::placeholder,
+option::placeholder,
+textarea::placeholder {
+  color: var(--txt-clr_main);
   font-family: var(--ff-text_main);
   font-size: var(--fs-H4);
 }
@@ -707,5 +710,5 @@ input::placeholder {
 
 .submit-cta:active {
   transform: scale(0.9);
-  border: 1px solid var(--txt-clr_light);
+  border: 3px solid var(--txt-clr_light);
 }
