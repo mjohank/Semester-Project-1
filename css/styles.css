@@ -726,8 +726,8 @@ textarea::placeholder {
 }
 
 .submit-cta:hover {
-    background-image: var(--gradient-green_bottom);
-color:var(--clr-white_main)
+  background-image: var(--gradient-green_bottom);
+  color: var(--clr-white_main);
   border: 2px solid var(--clr-white_main);
   transition: 0.1s ease-in;
   transform: scale(1.1);
