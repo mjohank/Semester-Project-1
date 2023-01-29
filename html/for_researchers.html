@@ -12,32 +12,148 @@
       name="keywords"
       content="Museum, Science, Interactive, Exhibition, Cosmology, Evolution, Biology, Medicine, Robotics, AI, Ecology, kids, teachers, researchers, professor, Aeronautics, Energetica"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Roboto+Flex:opsz,wght@8..144,300;8..144,400&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="../css/styles.css" />
     <title>For researchers | Community Science Museum</title>
   </head>
+
   <body>
-    <main>
-      <div class="features features-researchers container">
-        <h1 class="primary-heading">For researchers</h1>
-        <p class="feature-text">
+    <header class="header">
+      <nav class="navbar">
+        <a href="../index.html"
+          ><img
+            src="/resources/logo/CSM_logo.svg"
+            alt="Museum logo"
+            class="logo"
+        /></a>
+
+        <ul class="nav-list">
+          <li>
+            <a href="../index.html" class="nav-link">Home</a>
+          </li>
+          <li>
+            <a href="#" class="nav-link">Exhibitions</a>
+          </li>
+          <li>
+            <a href="../html/visit.html" class="nav-link">Visit</a>
+          </li>
+          <li>
+            <a href="../html/get_involved.html" class="nav-link"
+              >Get involved</a
+            >
+          </li>
+          <li>
+            <a href="../html/about.html" class="nav-link">About</a>
+          </li>
+          <li>
+            <a href="../html/contact.html" class="nav-link">Contact</a>
+          </li>
+        </ul>
+
+        <label for="toggle" class="toggle-label">HÆ?</label>
+        <input type="checkbox" id="toggle" class="toggle" />
+      </nav>
+    </header>
+
+    <!-- Main Section -->
+
+    <main class="container_1200">
+      <h1 class="primary-heading explore-H1">For researchers</h1>
+
+      <div class="explore-feature-container flex-container">
+        <p class="explore-feature-text text">
           Are you looking to get involved with our team of researchers and
           academics? Our museum offers various ways for you to use our resources
           and contribute towards them.
         </p>
-        <p class="feature-text">
+        <p class="explore-feature-text text">
           We have online records, laboratory space, and a working relationship
           with a number of universities around the country.
         </p>
 
-        <div class="feature-images">
-          <div class="feature-image"></div>
-          <div class="feature-image"></div>
-          <div class="feature-image"></div>
+        <div class="explore-feature-images flex-container">
+          <div
+            class="explore-feature-image feat-img_researcher1 orange-style"
+          ></div>
+          <div
+            class="explore-feature-image feat-img_researcher2 green-style"
+          ></div>
+          <div
+            class="explore-feature-image feat-img_researcher3 purple-style"
+          ></div>
         </div>
-        <div class="contact-btn">
-          <a href="contact.html">Contact us</a>
+        <div class="explore-contact-btn">
+          <a href="contact.html" class="orange-style cta">Contact us</a>
         </div>
       </div>
     </main>
+
+    <!-- Footer -->
+
+    <footer class="section-footer flex-container">
+      <div class="logo-address-container flex-container_nowrap">
+        <a href="../index.html">
+          <img
+            src="../resources/logo/CSM_logo.svg"
+            alt="logo"
+            class="footer-logo"
+        /></a>
+
+        <div class="address-container flex-container">
+          <p class="text_small address-txt">Community Science Museum</p>
+          <p class="text_small address-txt">Jalapeno Road 1</p>
+          <p class="text_small address-txt">5515 Bergen</p>
+        </div>
+      </div>
+
+      <div class="opening-hours-container">
+        <h4 class="hours-heading quaternary-heading">Opening hours:</h4>
+        <div class="hours-container flex-container_nowrap">
+          <p class="text_small day">Tuesday - Thursday:</p>
+          <p class="text_small hours">10.00 - 16.00</p>
+        </div>
+        <div class="hours-container flex-container_nowrap">
+          <p class="text_small day">Saturday:</p>
+          <p class="text_small hours">09.00 - 16.00</p>
+        </div>
+        <div class="hours-container flex-container_nowrap">
+          <p class="text_small day">Sunday:</p>
+          <p class="text_small hours">09.00 - 13.00</p>
+        </div>
+        <div class="hours-container flex-container_nowrap">
+          <p class="text_small day">Monday:</p>
+          <p class="text_small hours">Closed</p>
+        </div>
+      </div>
+
+      <div class="social-icons-container">
+        <h4 class="social-heading quaternary-heading">Follow us</h4>
+        <div class="icon-container flex-container_nowrap">
+          <a href="https://www.tiktok.com/en/"
+            ><img
+              src="/resources/tiktok_icon.svg"
+              alt="tiktok icon"
+              class="icon"
+          /></a>
+          <a href="https://www.instagram.com/"
+            ><img
+              src="/resources/icons/instagram_icon.svg"
+              alt="instagram icon"
+              class="icon"
+          /></a>
+          <a href="https://www.snapchat.com/"
+            ><img
+              src="../resources/icons/snapchat_icon.svg"
+              alt="snapchat icon"
+              class="icon"
+          /></a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

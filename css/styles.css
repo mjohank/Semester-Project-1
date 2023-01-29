@@ -26,7 +26,7 @@
   --fs-H3: 1.9rem;
   --fs-H4: 1.25rem;
 
-  --fs-text_main: 1.25;
+  --fs-text_main: 1.5rem;
   --fs-text_smaller: 1rem;
 
   /* Font family */
@@ -208,26 +208,27 @@
 /* Footer */
 
 .section-footer {
-  display: flex;
-  flex-wrap: wrap;
+  gap: 2rem;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   background-image: var(--gradient-green_bottom);
-  padding: 3rem 2rem 3rem 2rem;
+  padding: 3rem 2rem 1rem 2rem;
   border-radius: var(--br-top);
   margin-top: var(--mt-footer);
 }
 
 .logo-address-container {
-  display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
 }
 
-.hours-flex-container {
-  display: flex;
+.address-container {
+  flex-direction: column;
+}
+
+.hours-container {
   justify-content: space-between;
   gap: 0.5rem;
 }
@@ -252,9 +253,10 @@
 
 /* CTA */
 
-.cta {
+.cta:link,
+.cta:visited {
   color: var(--clr-white_main);
-  background-color: var(--clr-green_mid);
+  background-image: var(--gradient-green_bottom);
   font-family: var(--ff-headings_main);
   padding: 0.5rem 1.5rem;
   font-size: 1.5rem;
@@ -262,21 +264,19 @@
 }
 
 .cta:hover {
-  color: var(--clr-green_mid);
+  color: var(--clr-white_main);
   border: 2px solid var(--clr-green_dark);
   background-color: #fff;
-  box-shadow: 8px 8px 8px var(--clr-green_main);
-  padding: 0.6rem 1.5rem;
-  transition: 0.2s ease-in-out;
+  box-shadow: 2px 4px 6px var(--clr-green_main);
+  transition: 0.1s ease-in;
+  transform: scale(1.1);
 }
 
 .cta:active {
   color: var(--clr-white_main);
   border: 2px solid var(--clr-green_dark);
   background-color: var(--clr-green_mid);
-  box-shadow: 2px 4px 6px var(--clr-green_main);
   padding: 0.3rem 1.1rem;
-  transition: 0.1s ease-out;
 }
 
 /*******************************************************************/
@@ -688,7 +688,7 @@ textarea::placeholder {
   font-size: var(--fs-H4);
 }
 
-.submit-cta {
+/* .submit-cta {
   cursor: pointer;
   width: 100%;
   font-size: var(--fs-H3);
@@ -711,4 +711,116 @@ textarea::placeholder {
 .submit-cta:active {
   transform: scale(0.9);
   border: 3px solid var(--txt-clr_light);
+} */
+
+.submit-cta {
+  width: 100%;
+  margin-top: 2rem;
+  color: var(--txt-clr_main);
+  background-color: var(--clr-white_main);
+  border: 2px solid var(--clr-white_main);
+  font-family: var(--ff-headings_main);
+  padding: 0.5rem 1.5rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+.submit-cta:hover {
+    background-image: var(--gradient-green_bottom);
+color:var(--clr-white_main)
+  border: 2px solid var(--clr-white_main);
+  transition: 0.1s ease-in;
+  transform: scale(1.1);
+}
+
+.submit-cta:active {
+  border: 2px solid var(--clr-white_main);
+  transform: scale(0.9);
+}
+
+/*******************************************************************/
+/*FOR KIDS PAGE + Shared styling for  FOR TEACHERS PAGE and RESEARCHERS PAGE*/
+/*******************************************************************/
+
+.explore-H1 {
+  margin-top: var(--mt-H1);
+  margin-bottom: var(--mb-H1);
+  text-align: center;
+}
+
+.explore-feature-container {
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 1rem;
+  gap: 2rem;
+}
+
+.explore-feature-text {
+  min-width: 23rem;
+  /* margin-bottom: 2rem; */
+}
+
+.explore-feature-images {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.explore-feature-image {
+  width: 23rem;
+  height: 25rem;
+  background-position: center;
+  background-size: cover;
+  margin-top: 2rem;
+}
+
+.feat-img_kids1 {
+  background-image: url(../resources/images/kids_in_science_2.jpg);
+}
+
+.feat-img_kids2 {
+  background-image: url(../resources/images/kids_in_science_3.jpg);
+}
+
+.feat-img_kids3 {
+  background-image: url(../resources/images/kids_in_science_4.jpg);
+}
+
+.explore-contact-btn {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+/*******************************************************************/
+/*FOR TEACHERS PAGE*/
+/*******************************************************************/
+
+.feat-img_teacher1 {
+  background-image: url(../resources/images/teacher_2.jpg);
+}
+
+.feat-img_teacher2 {
+  background-image: url(../resources/images/teacher_3.jpg);
+}
+
+.feat-img_teacher3 {
+  background-image: url(../resources/images/teacher_4.jpg);
+}
+
+/*******************************************************************/
+/*FOR TEACHERS PAGE*/
+/*******************************************************************/
+
+.feat-img_researcher1 {
+  background-image: url(../resources/images/researcher_2.jpg);
+}
+
+.feat-img_researcher2 {
+  background-image: url(../resources/images/researcher_3.jpg);
+}
+
+.feat-img_researcher3 {
+  background-image: url(../resources/images/researcher_4.jpg);
 }
