@@ -12,6 +12,10 @@
       name="keywords"
       content="Museum, Science, Interactive, Exhibition, Cosmology, Evolution, Biology, Medicine, Robotics, AI, Ecology, kids, teachers, researchers, professor, Aeronautics, Energetica"
     />
+    <script
+      src="https://kit.fontawesome.com/5d47c883f3.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,59 +23,66 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/queries.css" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="../resources/icons/csm-favicon.png"
+    />
     <title>Visit us | Community Science Museum</title>
   </head>
 
   <body>
+    <!-- Header and Navigation -->
 
- <!-- Header and Navigation -->
+    <header class="header flex-container_nowrap">
+      <div class="logo-container">
+        <a href="../index.html">
+          <img
+            src="../resources/logo/CSM_logo.svg"
+            alt="CSM logo"
+            class="logo"
+          />
+        </a>
+      </div>
 
-   <!-- Header and Navigation -->
+      <div class="navbar flex-container_nowrap">
+        <label for="menu-checkbox" class="toggle-icon">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <input type="checkbox" id="menu-checkbox" class="menu-checkbox" />
+        <nav>
+          <ul class="nav-list flex-container">
+            <li>
+              <a href="../index.html" class="">Home</a>
+            </li>
+            <li>
+              <a href="../html/exhibitions.html">Exhibitions</a>
+            </li>
+            <li>
+              <a href="../html/visit.html" class="current">Visit</a>
+            </li>
+            <li>
+              <a href="../html/get_involved.html">Get involved</a>
+            </li>
+            <li>
+              <a href="../html/about.html">About</a>
+            </li>
+            <li>
+              <a href="../html/contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-   <header class="header">
-    <nav class="navbar">
-      <a href="../index.html"
-      ><img
-      src="/resources/logo/CSM_logo.svg"
-      alt="Museum logo"
-      class="logo"
-      /></a>
+    <!-- Main Section -->
 
-      <ul class="nav-list">   
-        <li>
-          <a href="../index.html" class="nav-link">Home</a>
-        </li>
-        <li>
-          <a href="#" class="nav-link">Exhibitions</a>
-        </li>
-        <li>
-          <a href="../html/visit.html" class="nav-link current">Visit</a>
-        </li>
-        <li>
-          <a href="../html/get_involved.html" class="nav-link">Get involved</a>
-        </li>
-        <li>
-          <a href="../html/about.html" class="nav-link">About</a>
-        </li>
-        <li>
-          <a href="../html/contact.html" class="nav-link">Contact</a>
-        </li>
-      </ul>
-
-      <label for="toggle" class="toggle-label">&#9776</label>
-      <input type="checkbox" id="toggle" class="toggle">
-    </nav>    
-  </header>
-
-  <!-- Main Section -->
-
-  <main class="main-section container_1600">
-
-    <h1 class="primary-heading visit-H1">Visit us</h1>
+    <main class="main-section container_1600">
+      <h1 class="primary-heading visit-H1">Visit us</h1>
 
       <div class="visit-card-row_1 flex-container">
-
-        <!-- Card 1 -->
+        <!-- Card 1 - Location-->
 
         <div class="visit-card vc_1 purple-style">
           <div class="visit-img vc-img_1"></div>
@@ -80,24 +91,25 @@
             <p class="visit-card-text text">Community Science Museum</p>
             <p class="visit-card-text text">Jalapeno Road 1</p>
             <p class="visit-card-text text">5515 Bergen</p>
-          </div>          
+          </div>
         </div>
 
-        <!-- Card 2 -->
+        <!-- Card 2 - Admission-->
 
-        <div class="visit-card vc_2 orange-style">          
+        <div class="visit-card vc_2 orange-style">
           <div class="visit-img vc-img_2"></div>
           <h2 class="secondary-heading vc-H2">Admission</h2>
           <div class="vc-text-container">
             <p class="visit-card-text text">The entrance is free for all</p>
-            <p class="visit-card-text text">There are guided tours of the museum that leave at every hour</p>
+            <p class="visit-card-text text">
+              There are guided tours of the museum that leave at every hour
+            </p>
           </div>
         </div>
-      
 
-        <!-- Card 3 -->
+        <!-- Card 3 - Hours-->
 
-        <div class="visit-card vc_3 green-style">          
+        <div class="visit-card vc_3 green-style">
           <div class="visit-img vc-img_3"></div>
           <h2 class="secondary-heading vc-H2">Hours</h2>
           <div class="vc-text-container">
@@ -105,55 +117,58 @@
               <p class="vc-opening-days text">Tuesday - Thursday:</p>
               <p class="vc-opening-hours text">10.00 - 16.00</p>
             </div>
-            
+
             <div class="flex-container_nowrap">
               <p class="vc-opening-days text">Saturday:</p>
-              <p class="vc-opening-hours">09.00 - 16.00</p>
+              <p class="vc-opening-hours text">09.00 - 16.00</p>
             </div>
-            
+
             <div class="flex-container_nowrap">
               <p class="vc-opening-days text">Sunday:</p>
-              <p class="vc-opening-hours">09.00 - 13.00</p>
+              <p class="vc-opening-hours text">09.00 - 13.00</p>
             </div>
 
             <div class="flex-container_nowrap">
               <p class="vc-opening-days text">Monday:</p>
-              <p class="vc-opening-hours"> Closed</p>
-            </div>            
+              <p class="vc-opening-hours text">Closed</p>
+            </div>
           </div>
         </div>
       </div>
 
-
       <div class="visit-card-row_2 flex-container">
+        <!-- Card 4 - Accessibility-->
 
-        <!-- Card 4 -->
-
-        <div class="visit-card vc_4 orange-style">          
+        <div class="visit-card vc_4 orange-style">
           <div class="visit-img vc-img_4"></div>
           <h2 class="secondary-heading vc-H2">Accessibility</h2>
           <div class="vc-text-container">
             <p class="visit-card-text text">
-            Our museum has wheelchair accessibility ramps</p>
-            <p class="visit-card-text text">We also have audio guides and braille display signs for the visually impaired</p>
+              Our museum has wheelchair accessibility ramps
+            </p>
+            <p class="visit-card-text text">
+              We also have audio guides and braille display signs for the
+              visually impaired
+            </p>
           </div>
         </div>
 
-        <!-- Card 5 -->
+        <!-- Card 5 - Food and drink-->
 
-        <div class="visit-card vc_5 green-style">          
+        <div class="visit-card vc_5 green-style">
           <div class="visit-img vc-img_5"></div>
           <h2 class="secondary-heading vc-H2">Food and drink</h2>
           <div class="vc-text-container">
             <p class="visit-card-text text">
-            There is a café attached to the museum where you can get light
-            lunches, soft drinks, coffee, snacks and more.</p>
-         </div>
+              There is a café attached to the museum where you can get light
+              lunches, soft drinks, coffee, snacks and more.
+            </p>
+          </div>
         </div>
 
-        <!-- Card 6 -->
+        <!-- Card 6 - Shop-->
 
-        <div class="visit-card vc_6 purple-style">         
+        <div class="visit-card vc_6 purple-style">
           <div class="visit-img vc-img_6"></div>
           <h2 class="secondary-heading vc-H2">Shop</h2>
           <div class="vc-text-container">
@@ -161,59 +176,52 @@
               Our shop offers a range of memorabilia from the museum as well as
               great gifts and activity packs
             </p>
-          </div>          
+          </div>
         </div>
       </div>
+    </main>
 
-  </main>
+    <!-- Footer -->
 
-    <!-- footer -->
-
-    <footer class="section-footer">
-
-<!-- Footer logo and address -->
-
-      <div class="logo-address-container">
-        <a href="../index.html"
-          ><img
+    <footer class="section-footer flex-container">
+      <div class="logo-address-container flex-container_nowrap">
+        <a href="../index.html">
+          <img
             src="../resources/logo/CSM_logo.svg"
             alt="logo"
             class="footer-logo"
         /></a>
-        <div class="address-container">
+
+        <div class="address-container flex-container">
           <p class="text_small address-txt">Community Science Museum</p>
           <p class="text_small address-txt">Jalapeno Road 1</p>
           <p class="text_small address-txt">5515 Bergen</p>
         </div>
       </div>
 
-<!-- Footer opening hours -->
-
       <div class="opening-hours-container">
         <h4 class="hours-heading quaternary-heading">Opening hours:</h4>
-        <div class="hours-flex-container">
+        <div class="hours-container flex-container_nowrap">
           <p class="text_small day">Tuesday - Thursday:</p>
           <p class="text_small hours">10.00 - 16.00</p>
         </div>
-        <div class="hours-flex-container">
+        <div class="hours-container flex-container_nowrap">
           <p class="text_small day">Saturday:</p>
           <p class="text_small hours">09.00 - 16.00</p>
         </div>
-        <div class="hours-flex-container">
+        <div class="hours-container flex-container_nowrap">
           <p class="text_small day">Sunday:</p>
           <p class="text_small hours">09.00 - 13.00</p>
         </div>
-        <div class="hours-flex-container">
+        <div class="hours-container flex-container_nowrap">
           <p class="text_small day">Monday:</p>
           <p class="text_small hours">Closed</p>
         </div>
       </div>
 
-      <!-- Footer Social icons -->
-
       <div class="social-icons-container">
         <h4 class="social-heading quaternary-heading">Follow us</h4>
-        <div class="icon-flex-container">
+        <div class="icon-container flex-container_nowrap">
           <a href="https://www.tiktok.com/en/"
             ><img
               src="/resources/tiktok_icon.svg"

@@ -1,0 +1,44 @@
+@media screen and (max-width: 75rem) {
+  nav {
+    display: none;
+  }
+
+  .toggle-icon {
+    display: block;
+    cursor: pointer;
+  }
+
+  #menu-checkbox:checked ~ nav {
+    display: block;
+  }
+
+  .nav-list {
+    flex-direction: column;
+  }
+
+  header {
+    position: relative;
+  }
+
+  .nav-list {
+    position: absolute;
+    top: 10rem;
+    right: 0;
+    left: 0;
+    align-items: center;
+    background-color: rgba(40, 117, 30, 0.947);
+    padding: 2rem 0;
+    gap: 0.5rem;
+  }
+
+  .nav-list li {
+    width: 100%;
+    text-align: center;
+    line-height: 2;
+  }
+
+  .nav-list li a {
+    width: 100%;
+    display: block;
+  }
+}

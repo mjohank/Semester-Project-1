@@ -12,6 +12,10 @@
       name="keywords"
       content="Museum, Science, Interactive, Exhibition, Cosmology, Evolution, Biology, Medicine, Robotics, AI, Ecology, kids, teachers, researchers, professor, Aeronautics, Energetica"
     />
+    <script
+      src="https://kit.fontawesome.com/5d47c883f3.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,45 +23,57 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/queries.css" />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="../resources/icons/csm-favicon.png"
+    />
     <title>For researchers | Community Science Museum</title>
   </head>
 
   <body>
-    <header class="header">
-      <nav class="navbar">
-        <a href="../index.html"
-          ><img
-            src="/resources/logo/CSM_logo.svg"
-            alt="Museum logo"
+    <!-- Navigation -->
+
+    <header class="header flex-container_nowrap">
+      <div class="logo-container">
+        <a href="../index.html">
+          <img
+            src="../resources/logo/CSM_logo.svg"
+            alt="CSM logo"
             class="logo"
-        /></a>
+          />
+        </a>
+      </div>
 
-        <ul class="nav-list">
-          <li>
-            <a href="../index.html" class="nav-link">Home</a>
-          </li>
-          <li>
-            <a href="#" class="nav-link">Exhibitions</a>
-          </li>
-          <li>
-            <a href="../html/visit.html" class="nav-link">Visit</a>
-          </li>
-          <li>
-            <a href="../html/get_involved.html" class="nav-link"
-              >Get involved</a
-            >
-          </li>
-          <li>
-            <a href="../html/about.html" class="nav-link">About</a>
-          </li>
-          <li>
-            <a href="../html/contact.html" class="nav-link">Contact</a>
-          </li>
-        </ul>
-
-        <label for="toggle" class="toggle-label">HÆ?</label>
-        <input type="checkbox" id="toggle" class="toggle" />
-      </nav>
+      <div class="navbar flex-container_nowrap">
+        <label for="menu-checkbox" class="toggle-icon">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <input type="checkbox" id="menu-checkbox" class="menu-checkbox" />
+        <nav>
+          <ul class="nav-list flex-container">
+            <li>
+              <a href="../index.html">Home</a>
+            </li>
+            <li>
+              <a href="../html/exhibitions.html">Exhibitions</a>
+            </li>
+            <li>
+              <a href="../html/visit.html">Visit</a>
+            </li>
+            <li>
+              <a href="../html/get_involved.html">Get involved</a>
+            </li>
+            <li>
+              <a href="../html/about.html">About</a>
+            </li>
+            <li>
+              <a href="../html/contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <!-- Main Section -->
