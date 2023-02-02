@@ -41,4 +41,97 @@
     width: 100%;
     display: block;
   }
+
+  /* FOOTER */
+
+  .footer-container {
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+  }
+
+  .icon-container {
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  /*******************************************************************/
+  /* HOMEPAGE */
+  /*******************************************************************/
+
+  /* Special events and exhibitions */
+
+  .specials-features {
+    flex-direction: column;
+    max-width: 24rem;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+  }
+
+  .specials-features-reverse {
+    flex-direction: column-reverse;
+  }
+
+  .specials-img {
+    border-radius: var(--br-top);
+  }
+
+  .specials-H3 {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+  }
+
+  .specials-txt {
+    padding: 0 1.5rem 2rem 1.5rem;
+  }
+
+  /*******************************************************************/
+  /* EXHIBITIONS PAGE */
+  /*******************************************************************/
+
+  .exhibition-cont {
+    justify-content: center;
+    margin: 0 3rem 5rem 3rem;
+  }
+
+  .exhib-reverse {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  /*******************************************************************/
+  /* VISIT PAGE */
+  /*******************************************************************/
+
+  .visit-card-row_1,
+  .visit-card-row_2 {
+    column-gap: 1rem;
+    row-gap: 2rem;
+  }
+
+  .visit-card {
+    width: 20rem;
+  }
+
+  .visit-img {
+    height: 13rem;
+  }
+
+  /*******************************************************************/
+  /* GET INVOLVED PAGE */
+  /*******************************************************************/
+
+  .involved-flex-cont {
+    gap: 1rem;
+  }
+
+  .involved-reverse {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  /* FIX!!!!! Put at lower breakpoint 600? */
+  .involved-img-container {
+    /* width: 24rem; */
+  }
 }
