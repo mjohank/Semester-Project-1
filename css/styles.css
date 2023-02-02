@@ -782,6 +782,10 @@ textarea::placeholder {
   gap: 2rem;
 }
 
+.explore-txt-cont {
+  flex-direction: column;
+  gap: 2rem;
+}
 .explore-feature-text {
   min-width: 23rem;
   /* margin-bottom: 2rem; */

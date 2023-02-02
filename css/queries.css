@@ -134,4 +134,21 @@
   .involved-img-container {
     /* width: 24rem; */
   }
+
+  /*******************************************************************/
+  /* FOR KIDS, FOR TEACHERS + FOR RESEARCHERS PAGE (Shared styling) */
+  /*******************************************************************/
+
+  .explore-txt-cont {
+    order: -1;
+  }
+
+  .explore-feature-images {
+    align-items: center;
+    order: 1;
+  }
+
+  .explore-contact-btn {
+    order: -0;
+  }
 }
