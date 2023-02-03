@@ -1,3 +1,7 @@
+/*****************************************/
+/* Screen width below 75rem/1200px */
+/*****************************************/
+
 @media screen and (max-width: 75rem) {
   nav {
     display: none;
@@ -130,11 +134,6 @@
     align-items: center;
   }
 
-  /* FIX!!!!! Put at lower breakpoint 600? */
-  .involved-img-container {
-    /* width: 24rem; */
-  }
-
   /*******************************************************************/
   /* FOR KIDS, FOR TEACHERS + FOR RESEARCHERS PAGE (Shared styling) */
   /*******************************************************************/
@@ -150,5 +149,42 @@
 
   .explore-contact-btn {
     order: -0;
+  }
+}
+
+/*****************************************/
+/* Screen width below 37rem/600px */
+/*****************************************/
+@media screen and (max-width: 37rem) {
+  /*******************************************************************/
+  /* EXHIBITIONS PAGE */
+  /*******************************************************************/
+
+  .exhibition-cont {
+    margin: 4rem auto;
+  }
+
+  .exhib-img {
+    max-width: 24rem;
+  }
+
+  .exhib-txt-cont {
+    max-width: 24rem;
+  }
+
+  /*******************************************************************/
+  /* GET INVOLVED PAGE */
+  /*******************************************************************/
+
+  .involved-container {
+    margin: 4rem auto;
+  }
+
+  .involved-img-container {
+    max-width: 24rem;
+  }
+
+  .involved-text-container {
+    max-width: 24rem;
   }
 }
