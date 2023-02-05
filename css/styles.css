@@ -220,6 +220,7 @@
 .nav-list li a.current:hover,
 .nav-list li a.current:active {
   color: var(--clr-orange_secondary);
+  text-decoration: underline;
 }
 
 .toggle-icon {
@@ -332,7 +333,7 @@ a.cta:active {
   text-align: center;
   padding: 1rem;
   backdrop-filter: blur(10px);
-  margin-bottom: 5%;
+  margin-bottom: 5rem;
 }
 
 .hero-heading {
@@ -360,7 +361,7 @@ a.cta:active {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  width: 24rem;
+  width: 23rem;
   height: 30rem;
   background-position: center;
   background-size: cover;
@@ -527,6 +528,10 @@ a.cta:active {
 
 .vc-text-container {
   padding: 2rem;
+}
+
+.vc-flex {
+  justify-content: space-between;
 }
 
 /*******************************************************************/

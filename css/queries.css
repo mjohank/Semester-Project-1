@@ -67,7 +67,7 @@
 
   .specials-features {
     flex-direction: column;
-    max-width: 24rem;
+    max-width: 23rem;
     margin: 0 auto;
     margin-bottom: 3rem;
   }
@@ -78,6 +78,7 @@
 
   .specials-img {
     border-radius: var(--br-top);
+    max-width: 23rem;
   }
 
   .specials-H3 {
@@ -130,7 +131,7 @@
   }
 
   .involved-reverse {
-    flex-direction: column-reverse;
+    /* flex-direction: column-reverse; */
     align-items: center;
   }
 
@@ -157,19 +158,29 @@
 /*****************************************/
 @media screen and (max-width: 37rem) {
   /*******************************************************************/
+  /* HOMEPAGE */
+  /*******************************************************************/
+
+  .hero-heading-container {
+    padding: 0;
+    margin: 2rem 2rem;
+  }
+
+  /*******************************************************************/
   /* EXHIBITIONS PAGE */
   /*******************************************************************/
 
   .exhibition-cont {
+    max-width: 23rem;
     margin: 4rem auto;
   }
 
   .exhib-img {
-    max-width: 24rem;
+    max-width: 23rem;
   }
 
   .exhib-txt-cont {
-    max-width: 24rem;
+    max-width: 23rem;
   }
 
   /*******************************************************************/
@@ -177,14 +188,14 @@
   /*******************************************************************/
 
   .involved-container {
-    margin: 4rem auto;
+    margin: 4rem 1rem;
   }
 
-  .involved-img-container {
-    max-width: 24rem;
-  }
+  /*******************************************************************/
+  /* ABOUT PAGE */
+  /*******************************************************************/
 
-  .involved-text-container {
-    max-width: 24rem;
+  .about-card {
+    margin: 4rem 1rem;
   }
 }
