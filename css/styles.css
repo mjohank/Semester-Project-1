@@ -233,6 +233,33 @@
   display: none;
 }
 
+/* BREADCRUMBS */
+
+.breadcrumbs {
+  display: flex;
+  padding: 0.8rem 1rem;
+  list-style: none;
+}
+
+.breadcrumbs li + li::before {
+  padding: 0.5rem;
+  color: var(--clr-green_main);
+  content: "/\00a0";
+}
+
+.breadcrumbs li a {
+  text-decoration: none;
+  color: var(--clr-green_mid);
+}
+
+.breadcrumbs li a:hover {
+  text-decoration: underline;
+}
+
+.current-crumb {
+  color: var(--txt-clr_main);
+}
+
 /* FOOTER */
 
 .footer-container {
