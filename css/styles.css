@@ -54,7 +54,7 @@
   --mb-H3: 2rem;
   --mb-H4: 1rem;
   --mb-sections: 6rem;
-  --mt-H1: 6rem;
+  --mt-H1: 4rem;
   --mt-footer: 10rem;
 }
 
@@ -805,7 +805,6 @@ textarea::placeholder {
 }
 .explore-feature-text {
   min-width: 23rem;
-  /* margin-bottom: 2rem; */
 }
 
 .explore-feature-images {
@@ -858,7 +857,7 @@ textarea::placeholder {
 }
 
 /*******************************************************************/
-/*FOR TEACHERS PAGE*/
+/*FOR RESEARCHERS PAGE*/
 /*******************************************************************/
 
 .feat-img_researcher1 {
