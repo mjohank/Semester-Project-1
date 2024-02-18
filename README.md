@@ -1,6 +1,6 @@
 # Community Science Museum, Semester Project 1
 
-![CSM Homepage Image](https://github.com/mjohank/Semester-Project-1/blob/main/resources/images/CSM-frontpage.jpg)](https://soft-semifreddo-1d8f68.netlify.app/)
+[![CSM Homepage Image](https://github.com/mjohank/Semester-Project-1/blob/main/resources/images/CSM-frontpage.jpg)](https://soft-semifreddo-1d8f68.netlify.app/)
 
 1st year semester project: Build a website for a fictional science museum
 
