@@ -32,6 +32,3 @@ git clone https://github.com/mjohank/Semester-Project-1.git
 
 2. Open in Visual Studio Code. Click on Live Server to view the site
 
-## Contact
-
-[E-mail](mjohandev@gmail.com)
