@@ -9,6 +9,9 @@
 The assignment was to create a website for a fictional science museum, aimed primarily at school children ages 7-15 and families with children.
 The website was required to be informative, appealing and engaging whilst maintaining focus on responsive design and adhering to accessibility guidelines.
 
+## Link to live site:
+https://soft-semifreddo-1d8f68.netlify.app/
+
 ## Tech stack used in this project:
 
 ![image](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
