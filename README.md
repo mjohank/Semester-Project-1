@@ -30,5 +30,22 @@ https://soft-semifreddo-1d8f68.netlify.app/
 git clone https://github.com/mjohank/Semester-Project-1.git
 ```
 
-2. Open in Visual Studio Code. Click on Live Server to view the site
+2. Install the dependencies:
 
+```
+npm install
+```
+
+### Running
+
+Here is where you detail how to run the app. It typically involves the commands you'd need to run to start the project e.g.
+
+To run the app, run the following commands:
+
+```bash
+npm run
+```
+
+## Contact me
+
+Email: [mjohandev@gmail.com](mailto:mjohandev@gmail.com)
