@@ -18,9 +18,6 @@ The site consists of the following pages:
 - About
 - Contact
 
-## Link to live site:
-https://soft-semifreddo-1d8f68.netlify.app/
-
 ## Tech stack used in this project:
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![Adobe XD](https://img.shields.io/badge/Adobe%20XD-470137?style=for-the-badge&logo=Adobe%20XD&logoColor=#FF61F6)
@@ -54,4 +51,7 @@ npm run
 
 Email: [mjohandev@gmail.com](mailto:mjohandev@gmail.com)
 
+
+## Link to live site:
+https://soft-semifreddo-1d8f68.netlify.app/
 
