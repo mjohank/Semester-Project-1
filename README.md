@@ -1,4 +1,4 @@
-# Community Science Museum, Semester Project 1
+# Community Science Museum
 
 [![CSM Homepage Screenshot](https://github.com/mjohank/Semester-Project-1/blob/main/resources/images/CSM-frontpage.jpg)](https://soft-semifreddo-1d8f68.netlify.app/)
 
