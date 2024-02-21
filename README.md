@@ -9,7 +9,7 @@
 The assignment was to create a website for a fictional science museum, aimed primarily at school children ages 7-15 and families with children.
 The website was required to be informative, appealing and engaging whilst maintaining focus on responsive design and adhering to accessibility guidelines.
 
-The site consists of the following pages:
+**The site consists of the following pages:**
 
 - Homepage
 - Exhibitions
